@@ -1,14 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="design.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet">
+  <title>Amazont</title>
 </head>
 <body>
-  <div id="container">
+   <header>
+     <div class="navbar">
+        <div class="navlogo border ">
+          <div class="logo">
+          </div>
+        </div>
+        <div class="address border">
+        <p class="delivery">Deliver to</p>
+        <div class="icon">
+          <i class="fa-solid fa-location-dot" id="loc"></i>
+          <p class="country">India</p>
+        </div>
+      </div>
+
+      <div class="nav_search">
+        <select class="search_select">
+          <option>All</option>
+          <option>Electronics</option>
+          <option>Clothing</option>
+          <option>Gadgets</option>
+        
+        </select>
+        <input type="text" placeholder="Search Amazon" class="search_input">
+        <div class="search_icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="nav-sign border">
+        <p class="nav-hello">Hello,sign in </p>
+        <p class="nav-acc">Account & Lists</p>
+      </div>
+      <div class="nav-buy border">
+        <p class="nav-hello">returns </p>
+        <p class="nav-acc">& Orders</p>
+      </div>
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+
+    </div>
+    <div class="panel">
+     <div class="panel-all">
+      <i class="fa-solid fa-bars"></i>
+      All
+      </div>
+      <div class="panel-ops">
+        <p><a>Today's Deals</a></p>
+        <p> <a>Customer Service</a></p>
+        <p><a>Registry</a></p>
+        <p><a>Gift Cards</a></p>
+        <p><a>Sell</a></p>
+      </div>
+      <div class="panel-deal">
+       <a> Shop deal's in Electronics</a>
+      </div>
+    </div>
+  
+  </header>
+
+    <div class="hero-section">
+       <div class="hero-msg">
+       You are on amazon.com.you can shop on Amazon India for millon of product witth fast local delivery.<a>click here to go to amazon.in</a>
+       </div>
+    </div>
+ <!-- <div class="shop-section ">
+    <div class="box-contain">
+      <h2>Shop deals in Fasion</h2>
+      <div class="box1 box" style="background-image: url('box1_image.jpg')">
+      </div>
+      <p>See more</p>
+    </div>
     
+    <div class="box-contain ">
+       <h2>top Deals</h2>
+       <div class="box2 box" style="background-image: url('box1_image.jpg')">
+       </div>
+       <p>See more</p>
+    </div>
+    <div class="box-contain ">
+        <h2>Gaming acessories</h2>
+        <div class="box3 box"style="background-image: url('box1_image.jpg')">
+       </div>
+       <p>See more</p>
+    </div>
+   <div class="box-contain ">
+     <h2>  </h2>
+      <div class="box4 box"style="background-image: url('box1_image.jpg)">
+       </div>
+       <p>See more</p>
+   </div>
+  
+  </div>  -->
+  <div class="shop-section">
+     <div class="box-contain">
+      <h2>Shop deals in Fasion</h2>
+      <div class="box1 box" style="background-image: url('box1_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+
+     <div class="box-contain">
+      <h2>top Deal</h2>
+      <div class="box1 box" style="background-image: url('box2_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+
+     <div class="box-contain">
+      <h2>Furniture</h2>
+      <div class="box1 box" style="background-image: url('box3_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+
+     <div class="box-contain">
+      <h2>Smartphones</h2>
+      <div class="box1 box" style="background-image: url('box4_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+<!---->
+     <div class="box-contain">
+      <h2>Shop deals in beauty</h2>
+      <div class="box1 box" style="background-image: url('box5_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+
+     <div class="box-contain">
+      <h2>Pet Care</h2>
+      <div class="box1 box" style="background-image: url('box6_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+
+     <div class="box-contain">
+      <h2> New arrival in Toys</h2>
+      <div class="box1 box" style="background-image: url('box7_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
+
+     <div class="box-contain">
+      <h2> Latest Trends</h2>
+      <div class="box1 box" style="background-image: url('box8_image.jpg')">
+      </div>
+      <p>See more</p>
+     </div>
   </div>
+
+  <footer> 
+    <div class="foot-panel">
+     Back to Top
+    </div> 
+   <div class="foot1">
+     <div class="foot-2">
+       <p>Get to Know Us</p>
+      <a>Blog</a>
+      <a>About Amazon</a>
+      <a>Investor Relations</a>
+      <a>Amazon Devices</a>
+      <a>Amazon Science</a> 
+     </div> 
+     <div class="foot-2">
+       <p>Make Money with Us</p>
+       <a>Sell products on Amazon</a>
+       <a>Sell on Amazon Business</a>
+       <a>Sell apps on Amazon</a>
+       <a>Become an Affiliate</a>
+       <a>Advertise Your Products</a>
+       <a>Self-publish with Us</a>
+       <a>Host an Amazon Hub</a>
+      </div>
+
+      <div class="foot-2">
+        <p>Amazon Payement Product</p>
+        <a>amazon BUssiness Card</a>
+        <a>Shop with Points</a>
+        <a>Reload Your Balance</a>
+        <a>Amazon Currrency Converter</a>
+      </div>
+     </div>                                       
+    
+     <div class="logofoot">      
+       <div class="log">
+       </div>
+       <select class="search-lang">
+        
+         <option>english</option>
+         <option>hindi</option>
+         <option>marathi</option>
+         <option>gujrathi</option>
+       </select>
+     </div>
+
+  </footer>
+  
 </body>
- </html>
+</html>
